@@ -22,6 +22,7 @@ header {
 .link{
   float:right;
   margin-left:20px;
+  font-size: 1.2em 
 }
 
 .content{
@@ -30,16 +31,38 @@ header {
   overflow:auto;
 }
 
+.section-content-wrapper{
+  margin:15px;
+}
+
+.divider-line{
+  margin:0 auto;
+  min-height:1px;
+  background-color: #ccc;
+  margin-bottom:20px;
+}
+
 .about-me{
   width: 650px;
   background-color: #eee;
   float:left;
 }
 
-.spacer{
-  width:40px;
+p{
   float:left;
+  font-size: 1.2em;
+}
+
+img{
+  float:left;
+  margin-right:15px;
+}
+
+
+.spacer-forty{
+  width:40px;
   min-height: 1px;
+  float:left;
 }
 
 .connect{
