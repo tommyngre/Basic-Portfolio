@@ -44,7 +44,7 @@ header {
   background-color:#BBBBBB;
 }
 
-.about-me{
+.left-content{
   width: 650px;
   background-color: #EEEEEE;
   float:left;
@@ -70,7 +70,7 @@ p{
   float:left;
 }
 
-.connect{
+.right-content{
   width: 270px;
   background-color: #EEEEEE;
   float:left;
