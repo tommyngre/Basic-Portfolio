@@ -45,7 +45,7 @@ header {
 
 h1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size:1.5em;  
+  font-size:1.5em;
 }
 
 .section-content-wrapper{
@@ -55,7 +55,7 @@ h1 {
 .divider-line{
   margin:0 auto;
   min-height:1px;
-  margin-bottom:10px;
+  margin-bottom:20px;
   background-color:#BBBBBB;
 }
 
@@ -64,6 +64,7 @@ h1 {
   background-color: #EEEEEE;
   float:left;
   padding-bottom:15px;
+  margin-bottom:80px; /* keep content above footer */
 }
 
 p{
@@ -76,6 +77,29 @@ p{
   width:100px;
 }
 
+.proj-wrapper{
+  position:relative;
+  float:left;
+}
+
+.proj-name{
+  position: absolute;
+  top:10;
+  left:10;
+  color:black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:1em;
+  background-color:#93AB60;
+  font-weight:bold;
+  padding:10px;
+}
+
+.portfolio-proj{
+  float:left;
+  margin:0px 28px 30px 0px;
+  border: 1px solid #BBBBBB;
+}
+
 .form{
   font-size: 1.2em;
   font-family: Arial, Helvetica, sans-serif;
@@ -83,24 +107,22 @@ p{
 
 input{
   width:100%;
-  margin-bottom: 10px;
+  margin: 5px 0px 10px 0px;
   border: 1px solid #CCCCCC;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: .9em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 5px;
-  opacity: .7;
-
 }
 
 input[type=submit]{
-  background-color:olivedrab;
+  background-color:#93AB60;
   color:white;
 }
 
 input[type=submit]:hover{
-  background-color:olivedrab;
+  background-color:#93AB60;
   color:white;
   font-style: italic;
 }
@@ -108,14 +130,13 @@ input[type=submit]:hover{
 textarea {
   height:100px;
   width:100%;
-  margin-bottom: 10px;
+  margin: 5px 0px 10px 0px;
   border: 1px solid #CCCCCC;
   border-radius: 4px;
   box-sizing: border-box;
   font-size: .9em;
   font-family: Georgia, 'Times New Roman', Times, serif;
   padding: 5px;
-  opacity: .7;
 }
 
 input[type=submit]{
@@ -152,4 +173,5 @@ footer {
   bottom:0;
   font-family: Arial, Helvetica, sans-serif; 
   font-size: 1.2em;
+  position:fixed;
 }
