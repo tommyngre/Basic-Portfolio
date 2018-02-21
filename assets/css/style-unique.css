@@ -9,54 +9,36 @@ header {
   z-index: 2;
   position:fixed;
   width:100%;
-  background-color: #ffffff;
-  padding: 20px 10px 14px 0px;
-  border-bottom: 2px solid #cccccc;
+  background-color: #DDDDDD;
+  padding: 10px 0px 10px 0px;
+  margin-bottom:20px;
+  border-bottom: 5px solid #BBBBBB;
 }
 
 h1, .header-text{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size:1.5em;
-  font-weight:bold;
-  color:#4aaaa5;
+  font-size:1.5em;  
 }
 
 .non-header-text{
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em; 
+  font-size: 1.2em; 
 }
 
 .name-header{
   width: 50%;
-  background-color:#4aaaa5;
-  color:white;
-  padding:15px 15px 13px 15px;
-}
-
-.border-right{
-  border-right:1px solid #aaaaaa;
-  height:20px;
-  padding-right:20px;
-
+  font-weight:bold;
+  background-color:#EEEEEE;
+  padding:5px 10px 8px 10px;
 }
 
 .link{
   float:right;
-  padding-right:20px;
+  margin-left:20px;
 }
 .link:hover{
   font-style: italic;
 }
-
-a {
-color:#aaaaaa;
-text-decoration: none;
-}
-
-p {
-  color:gray;
-  line-height: 1.5;
-}  
 
 .content{
   width: 960px;
@@ -72,16 +54,15 @@ p {
   margin:0 auto;
   min-height:1px;
   margin-bottom:20px;
-  background-color:#dddddd;
+  background-color:#BBBBBB;
 }
 
 .left-content{
   width: 650px;
-  background-color: #ffffff;
+  background-color: #EEEEEE;
   float:left;
   padding-bottom:15px;
   margin:80px 0px 80px 0px; /* keep content between footers */
-  border:1px solid #dddddd;
 }
 
 .prof-pic{
@@ -149,9 +130,8 @@ input[type=submit]{
 .right-content{
   float:right;
   width: 270px;
-  background-color: #ffffff;
+  background-color: #EEEEEE;
   margin: 80px 0px 80px 0px; /* keep content between footers */
-  border:1px solid #dddddd;
 }
 .icon{
   width:60px;
@@ -162,10 +142,9 @@ input[type=submit]{
 
 footer {
   width:100%;
-  background-color: #666666;
-  color:#aaaaaa;
+  background-color: #DDDDDD;
   padding: 20px 0px 20px 0px;
-  border-top:5px solid #4aaaa5;
+  border-top:5px solid #BBBBBB;
   text-align:center;
   position:fixed;
   bottom:0;
