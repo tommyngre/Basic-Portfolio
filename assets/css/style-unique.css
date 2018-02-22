@@ -140,6 +140,12 @@ input[type=submit]{
   opacity:.7;
 }
 
+#toggle{
+  float:right;
+  margin-right:20px;
+  color:#555555;
+}
+
 footer {
   width:100%;
   background-color: #DDDDDD;
