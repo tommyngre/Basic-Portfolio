@@ -34,15 +34,16 @@
       <div class="section-content-wrapper">
         <h1>Contact</h1>
         <div class="divider-line"></div>
-        <form class="form non-header-text">
+        <form class="form non-header-text" enctype="text/plain" action="mailto:tommyn.gre@gmail.com" method="GET">
+          <input id="mailto-subject" name="Subject" type="hidden" value="Portfolio contact"></input>
           Name
-          <input class="non-header-text" type="text"></input>
+          <input class="non-header-text" name="Subject" type="text"></input>
           <br> Email Address
-          <input class="non-header-text" type="email"></input>
+          <input class="non-header-text" name="Subject" type="email"></input>
           <br> Message
-          <textarea class="non-header-text"></textarea>
+          <textarea class="non-header-text" name="Body" type="text"></textarea>
           <br>
-          <input class="non-header-text" type="submit"></input>
+          <input class="non-header-text" type="submit" value="send"></input>
         </form>
       </div>
     </section>

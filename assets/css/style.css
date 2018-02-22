@@ -5,6 +5,18 @@ body{
   height: 100%;
 }
 
+/* key font styles */
+h1, .header-text{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:1.5em;
+  font-weight:bold;
+  color:#4aaaa5;
+}
+.non-header-text{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em; 
+}
+
 header {
   z-index: 2;
   position:fixed;
@@ -14,30 +26,11 @@ header {
   border-bottom: 2px solid #cccccc;
 }
 
-h1, .header-text{
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size:1.5em;
-  font-weight:bold;
-  color:#4aaaa5;
-}
-
-.non-header-text{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em; 
-}
-
 .name-header{
   width: 50%;
   background-color:#4aaaa5;
   color:white;
   padding:15px 15px 13px 15px;
-}
-
-.border-right{
-  border-right:1px solid #aaaaaa;
-  height:20px;
-  padding-right:20px;
-
 }
 
 .link{
@@ -47,6 +40,14 @@ h1, .header-text{
 .link:hover{
   font-style: italic;
 }
+/* vertical lines between links */
+.border-right{
+  border-right:1px solid #aaaaaa;
+  height:20px;
+  padding-right:20px;
+
+}
+
 
 a {
 color:#aaaaaa;
@@ -62,12 +63,10 @@ p {
   width: 960px;
   margin: 0 auto;
 }
-
 /* to apply padding to contained content */
 .section-content-wrapper{
   margin:15px;
 }
-
 .divider-line{
   margin:0 auto;
   min-height:1px;
@@ -76,11 +75,12 @@ p {
 }
 
 .left-content{
-  width: 650px;
+  box-sizing:border-box;
+  width: 650px; /* 2px allocated to border */
   background-color: #ffffff;
   float:left;
   padding-bottom:15px;
-  margin:80px 0px 80px 0px; /* keep content between footers */
+  margin:80px 0px 80px 0px; /* keep content btw header / footer */
   border:1px solid #dddddd;
 }
 
@@ -148,11 +148,15 @@ textarea {
   box-sizing: border-box;
   padding: 5px;
 }
+#mailto-subject{
+  display: none;
+}
 
 /* social media (right-side) content */
 .right-content{
+  box-sizing:border-box;
   float:right;
-  width: 270px;
+  width: 270px; /* 2px allocated to border */
   background-color: #ffffff;
   margin: 80px 0px 80px 0px; /* keep content between footers */
   border:1px solid #dddddd;

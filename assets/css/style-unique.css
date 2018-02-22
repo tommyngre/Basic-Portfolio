@@ -1,3 +1,8 @@
+/* I worked on this stylesheet until seeing a slack convo
+which encouraged me to stick to the design in homework instructions.
+See style.css, which conforms precisely.
+*/
+
 body{
   background-image: url('../images/bg-hawk.png');
   background-repeat: repeat;
@@ -129,7 +134,7 @@ input[type=submit]{
 /* social media (right-side) content */
 .right-content{
   float:right;
-  width: 270px;
+  width: 268px; 
   background-color: #EEEEEE;
   margin: 80px 0px 80px 0px; /* keep content between footers */
 }
